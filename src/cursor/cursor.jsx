@@ -12,9 +12,12 @@ export default function Cursor () {
             cursorRef.current.style.top = e.pageY  + 'px'
             cursorRef.current.style.left = e.pageX + 'px'
         }
-        document.querySelectorAll('a').forEach((e) => {
-            e.onmouseenter = () => {cursorRef.current.classList.add('activeCursor')}
-            e.onmouseleave = () => {cursorRef.current.classList.remove('activeCursor')}
+        const elementsArray = [document.querySelectorAll('a') , document.querySelectorAll('button')]
+        elementsArray.forEach((ele) => {
+            ele.forEach((e) => {
+                e.onmouseenter = () => {cursorRef.current.classList.add('activeCursor')}
+                e.onmouseleave = () => {cursorRef.current.classList.remove('activeCursor')}
+            })
         })
     } , [])
 

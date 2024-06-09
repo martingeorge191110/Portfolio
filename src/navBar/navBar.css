@@ -60,7 +60,7 @@ nav h1::after{
 nav ul li ::after{
     content: ' ';
     position: absolute;
-    background-color:white ;
+    background-color:orangered ;
     height: 2px;
     width: 0%;
     bottom: -0.2rem;
@@ -73,7 +73,7 @@ nav h1:hover::after{
 }
 
 nav ul li a:hover{
-    font-size: 21px;
+    color: orangered;
 }
 
 nav ul li :hover::after{

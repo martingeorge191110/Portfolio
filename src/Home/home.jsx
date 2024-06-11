@@ -30,7 +30,7 @@ export default class Home extends React.Component{
             }
             }, 200);
         for(let i = 3 ; i < introDiv.children.length ; i++) {
-            if(i%2 === 0) introDiv.children[i].style.color = "#fc8053";
+            if(i%2 === 0) introDiv.children[i].style.color = "rgb(164, 97, 226)";
         }
     }
 

@@ -3,7 +3,7 @@
     height: 3rem;
     border-radius: 100%;
     background-color: transparent;
-    border: white solid 2px;
+    border: orangered solid 1px;
     position: relative;
     top: 0;
     z-index: 999;
@@ -15,7 +15,11 @@
 .activeCursor {
     background-color: rgb(255, 149, 110) ;
     border: none;
-    width: 5rem;
+    width: 4rem;
     opacity: 0.5;
     transition: 0.1s;
+}
+
+.idleCursor {
+    visibility: hidden;
 }

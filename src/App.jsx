@@ -6,8 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+import Services from './Services/services';
 
 
 function App() {
@@ -19,7 +19,11 @@ function App() {
       <Router>
             <Cursor/>
             <NavBar/>
-            <Home/>
+        <Switch>
+            <Route path = '/home' exact component = {Home}/>
+            <Route path = '/services' exact component = {Services} />
+            <Route  component={Home}/>
+        </Switch>
       </Router>
     </div>
   );

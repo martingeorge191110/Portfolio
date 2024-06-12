@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: rgb(159, 44, 3);
+    background-color: rgb(64, 16, 109);
     font-size: 1rem;
     font-weight: 800;
     border: none;
@@ -21,10 +21,10 @@
 
 .scrBtn:hover {
     box-shadow: 
-    0 0 5px #faa383, 
-    0 0 10px #faa383, 
-    0 0 20px #faa383, 
-    0 0 30px #faa383;
+    0 0 5px rgb(186, 123, 244), 
+    0 0 10px rgb(186, 123, 244), 
+    0 0 20px rgb(186, 123, 244), 
+    0 0 30px rgb(186, 123, 244);
     background-color: rgb(218, 218, 218);
-    color: rgb(159, 44, 3);
+    color: rgb(64, 16, 109);
 }

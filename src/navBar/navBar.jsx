@@ -1,5 +1,6 @@
 import React , {useRef , useState , useEffect} from "react";
 import './navBar.css'
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 // import Cursor from "../cursor/cursor";
 
 export default function NavBar () {
@@ -14,10 +15,10 @@ export default function NavBar () {
         <><nav>
         <h1><img src="https://designwithred.com/wp-content/uploads/2018/04/m3.png"></img>artin Portfolio</h1>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/services">Service</Link></li>
+            <li><Link to="">Portfolio</Link></li>
+            <li><Link to="">Contact</Link></li>
         </ul>
     </nav>
     </>

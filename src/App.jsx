@@ -8,6 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Services from './Services/services';
+import Portfolio from './Portfolio/portfolio';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Switch>
             <Route path = '/home' exact component = {Home}/>
             <Route path = '/services' exact component = {Services} />
+            <Route path = '/portfolio' exact component = {Portfolio} />
             <Route  component={Home}/>
         </Switch>
       </Router>

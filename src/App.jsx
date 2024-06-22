@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Services from './Services/services';
 import Portfolio from './Portfolio/portfolio';
+import Contact from './Contact/contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path = '/home' exact component = {Home}/>
             <Route path = '/services' exact component = {Services} />
             <Route path = '/portfolio' exact component = {Portfolio} />
+            <Route path = '/contact' exact component = {Contact}/>
             <Route  component={Home}/>
         </Switch>
       </Router>

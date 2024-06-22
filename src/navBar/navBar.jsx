@@ -18,7 +18,7 @@ export default function NavBar () {
             <li><Link to="/home">Home</Link></li>
             <li><Link to="/services">Service</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="">Contact</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
     </nav>
     </>
